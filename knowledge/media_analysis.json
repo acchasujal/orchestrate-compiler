@@ -1,0 +1,13 @@
+{
+  "img_002": {"tags": ["promotion", "event", "business_update"], "summary": "PVR cinema ticket promotion and movie poster; not a refund or banking document.", "confidence": 0.99},
+  "img_003": {"tags": ["promotion", "travel", "event"], "summary": "Ladakh travel package advertisement with discount and booking call to action.", "confidence": 0.99},
+  "img_004": {"tags": ["calendar", "event", "business_update"], "summary": "Incident review calendar invitation with meeting time and attendees.", "confidence": 0.99},
+  "img_007": {"tags": ["transaction", "promotion", "business_update"], "summary": "Photograph of a JioMart shopping bag; weak visual evidence of a purchase or retail context.", "confidence": 0.95},
+  "img_008": {"tags": ["promotion", "social"], "summary": "Clothing-store display; supports a retail or marketplace context but contains no urgency.", "confidence": 0.98},
+  "img_010": {"tags": ["promotion", "business_update"], "summary": "Amazon Prime Day discount and cashback promotion.", "confidence": 0.99},
+  "img_011": {"tags": ["educational", "event", "document"], "summary": "School field-trip consent form with signatures, trip date, and departure/return fields.", "confidence": 0.99},
+  "img_012": {"tags": ["educational", "event", "document"], "summary": "IIT Bombay research internship notice with eligibility and application information.", "confidence": 0.99},
+  "img_023": {"tags": ["missing_person", "urgent", "family", "document"], "summary": "Missing-person poster for a 16-year-old, including date, location, and contact numbers.", "confidence": 0.99},
+  "img_024": {"tags": ["financial", "educational"], "summary": "Nifty 50 market chart and technical-analysis commentary; informational, not an explicit transaction request.", "confidence": 0.99},
+  "img_025": {"tags": ["promotion", "financial", "transaction"], "summary": "Land-plot sale advertisement with investment language, token payment pressure, and contact details.", "confidence": 0.99}
+}

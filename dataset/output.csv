@@ -1,111 +1,111 @@
 message_id,action,message_type,reason,confidence,evidence_message_ids
-msg_023,,,,,
-msg_091,,,,,
-msg_090,,,,,
-msg_048,,,,,
-msg_040,,,,,
-msg_075,,,,,
-msg_005,,,,,
-msg_104,,,,,
-msg_069,,,,,
-msg_107,,,,,
-msg_070,,,,,
-msg_003,,,,,
-msg_099,,,,,
-msg_008,,,,,
-msg_092,,,,,
-msg_060,,,,,
-msg_004,,,,,
-msg_030,,,,,
-msg_045,,,,,
-msg_052,,,,,
-msg_009,,,,,
-msg_071,,,,,
-msg_016,,,,,
-msg_065,,,,,
-msg_038,,,,,
-msg_086,,,,,
-msg_014,,,,,
-msg_094,,,,,
-msg_029,,,,,
-msg_105,,,,,
-msg_002,,,,,
-msg_010,,,,,
-msg_078,,,,,
-msg_013,,,,,
-msg_018,,,,,
-msg_044,,,,,
-msg_032,,,,,
-msg_106,,,,,
-msg_006,,,,,
-msg_109,,,,,
-msg_108,,,,,
-msg_019,,,,,
-msg_088,,,,,
-msg_056,,,,,
-msg_027,,,,,
-msg_050,,,,,
-msg_083,,,,,
-msg_063,,,,,
-msg_033,,,,,
-msg_061,,,,,
-msg_020,,,,,
-msg_017,,,,,
-msg_058,,,,,
-msg_026,,,,,
-msg_047,,,,,
-msg_046,,,,,
-msg_042,,,,,
-msg_079,,,,,
-msg_098,,,,,
-msg_037,,,,,
-msg_007,,,,,
-msg_085,,,,,
-msg_001,,,,,
-msg_021,,,,,
-msg_028,,,,,
-msg_012,,,,,
-msg_064,,,,,
-msg_103,,,,,
-msg_031,,,,,
-msg_057,,,,,
-msg_087,,,,,
-msg_067,,,,,
-msg_039,,,,,
-msg_082,,,,,
-msg_066,,,,,
-msg_049,,,,,
-msg_015,,,,,
-msg_051,,,,,
-msg_097,,,,,
-msg_089,,,,,
-msg_053,,,,,
-msg_059,,,,,
-msg_024,,,,,
-msg_072,,,,,
-msg_036,,,,,
-msg_076,,,,,
-msg_055,,,,,
-msg_102,,,,,
-msg_080,,,,,
-msg_093,,,,,
-msg_034,,,,,
-msg_035,,,,,
-msg_101,,,,,
-msg_041,,,,,
-msg_011,,,,,
-msg_110,,,,,
-msg_095,,,,,
-msg_074,,,,,
-msg_073,,,,,
-msg_054,,,,,
-msg_068,,,,,
-msg_100,,,,,
-msg_062,,,,,
-msg_096,,,,,
-msg_043,,,,,
-msg_077,,,,,
-msg_081,,,,,
-msg_025,,,,,
-msg_084,,,,,
-msg_022,,,,,
+msg_023,notify,business_update,The business message was routed using the recipient's stored relationship and engagement signals. Matched signals: business_context. Supporting history: message_0102;message_0243.,0.85,message_0102;message_0243;message_0101
+msg_091,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: sensitive_verification_request. Supporting history: message_0238;message_0381.",0.9,message_0238;message_0381
+msg_090,digest,urgent,"The sender explicitly says the matter is not urgent, so it can wait for the digest. Matched signals: explicit_non_urgency.",0.78,none
+msg_048,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: payment_pressure. Supporting history: message_0151;message_0152.",0.9,message_0151;message_0152;message_0237
+msg_040,mute,forward,"The message was evaluated as a direct mention inside a muted group. Matched signals: group_muted, recipient_mention, generic_forward. Supporting history: message_0136;message_0135.",0.8,message_0136;message_0135;message_0259
+msg_075,digest,business_update,The business message was routed using the recipient's stored relationship and engagement signals. Matched signals: business_context. Supporting history: message_0206;message_0205.,0.85,message_0206;message_0205
+msg_005,notify,urgent,The direct message has no stronger suppression or safety signal and is routed for attention. Matched signals: urgent. Supporting history: message_0049;message_0065.,0.85,message_0049;message_0065;message_0114
+msg_104,notify,urgent,The direct message has no stronger suppression or safety signal and is routed for attention. Matched signals: urgent. Supporting history: message_0050;message_0224.,0.85,message_0050;message_0224;message_0383
+msg_069,mute,spam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: high_forwarded_chain. Supporting history: message_0177;message_0178.",0.9,message_0177;message_0178;message_0193
+msg_107,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: sensitive_verification_request. Supporting history: message_0056;message_0235.",0.9,message_0056;message_0235;message_0369
+msg_070,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: sensitive_verification_request. Supporting history: message_0023;message_0045.",0.9,message_0023;message_0045;message_0053
+msg_003,notify,business_update,The business message was routed using the recipient's stored relationship and engagement signals. Matched signals: business_context. Supporting history: message_0031;message_0061.,0.85,message_0031;message_0061;message_0400
+msg_099,digest,urgent,"The sender explicitly says the matter is not urgent, so it can wait for the digest. Matched signals: explicit_non_urgency. Supporting history: message_0227;message_0249.",0.78,message_0227;message_0249;message_0117
+msg_008,digest,promotion,The business message was routed using the recipient's stored relationship and engagement signals. Matched signals: business_context. Supporting history: message_0071;message_0072.,0.85,message_0071;message_0072;message_0296
+msg_092,notify,business_update,The business message was routed using the recipient's stored relationship and engagement signals. Matched signals: business_context. Supporting history: message_0344;message_0346.,0.85,message_0344;message_0346
+msg_060,notify,event,The direct message has no stronger suppression or safety signal and is routed for attention. Matched signals: urgent. Supporting history: message_0176;message_0284.,0.85,message_0176;message_0284;message_0404
+msg_004,notify,business_update,The business message was routed using the recipient's stored relationship and engagement signals. Matched signals: business_context. Supporting history: message_0005;message_0245.,0.85,message_0005;message_0245;message_0064
+msg_030,mute,unknown,The recipient has muted this group and the message contains no direct signal to the recipient. Matched signals: group_muted. Supporting history: message_0050;message_0115.,0.85,message_0050;message_0115;message_0335
+msg_045,notify,urgent,The direct message has no stronger suppression or safety signal and is routed for attention. Matched signals: urgent. Supporting history: message_0146;message_0145.,0.85,message_0146;message_0145
+msg_052,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: business_domain_mismatch, payment_pressure, unverified_business_reports. Supporting history: message_0159;message_0160.",0.9,message_0159;message_0160;message_0207
+msg_009,mute,unknown,The recipient has muted this group and the message contains no direct signal to the recipient. Matched signals: group_muted. Supporting history: message_0074;message_0073.,0.85,message_0074;message_0073
+msg_071,digest,personal,The message has no verified urgency or safety signal and is suitable for the digest. Matched signals: non_urgent_default. Supporting history: message_0197;message_0198.,0.78,message_0197;message_0198
+msg_016,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: sensitive_verification_request. Supporting history: message_0024;message_0087.",0.9,message_0024;message_0087;message_0183
+msg_065,notify,business_update,The business message was routed using the recipient's stored relationship and engagement signals. Matched signals: business_context. Supporting history: message_0261;message_0185.,0.85,message_0261;message_0185;message_0186
+msg_038,mute,spam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: high_forwarded_chain. Supporting history: message_0131;message_0132.",0.9,message_0131;message_0132
+msg_086,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: business_domain_mismatch, sensitive_verification_request. Supporting history: message_0222.",0.9,message_0222
+msg_014,mute,scam,The business message crossed the deterministic soft-risk threshold. Matched signals: soft_risk_score. Supporting history: message_0017;message_0018.,0.87,message_0017;message_0018;message_0083
+msg_094,mute,promotion,The business message was routed using the recipient's stored relationship and engagement signals. Matched signals: business_context. Supporting history: message_0356.,0.85,message_0356
+msg_029,digest,personal,The message has no verified urgency or safety signal and is suitable for the digest. Matched signals: non_urgent_default. Supporting history: message_0049;message_0066.,0.78,message_0049;message_0066;message_0113
+msg_105,mute,spam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: high_forwarded_chain. Supporting history: message_0233;message_0373.",0.9,message_0233;message_0373
+msg_002,notify,payment,The direct message has no stronger suppression or safety signal and is routed for attention. Matched signals: urgent. Supporting history: message_0003;message_0041.,0.85,message_0003;message_0041;message_0059
+msg_010,mute,spam,The recipient has opted out of promotions from this business. Matched signals: promotions_opted_out. Supporting history: message_0011;message_0075.,0.87,message_0011;message_0075;message_0242
+msg_078,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: payment_pressure, payment_link_request. Supporting history: message_0212;message_0211.",0.9,message_0212;message_0211;message_0204
+msg_013,notify,payment,The direct message has no stronger suppression or safety signal and is routed for attention. Matched signals: urgent. Supporting history: message_0081;message_0082.,0.85,message_0081;message_0082
+msg_018,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: sensitive_verification_request. Supporting history: message_0091;message_0092.",0.9,message_0091;message_0092;message_0026
+msg_044,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: sensitive_verification_request. Supporting history: message_0143;message_0144.",0.9,message_0143;message_0144;message_0036
+msg_032,digest,forward,"The sender explicitly says the matter is not urgent, so it can wait for the digest. Matched signals: explicit_non_urgency. Supporting history: message_0119;message_0285.",0.78,message_0119;message_0285;message_0120
+msg_106,notify,urgent,The direct message has no stronger suppression or safety signal and is routed for attention. Matched signals: urgent. Supporting history: message_0234;message_0376.,0.85,message_0234;message_0376;message_0377
+msg_006,notify,urgent,The direct message has no stronger suppression or safety signal and is routed for attention. Matched signals: urgent. Supporting history: message_0001;message_0029.,0.85,message_0001;message_0029;message_0044
+msg_109,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: embedded_instruction, payment_pressure. Supporting history: message_0151;message_0152.",0.9,message_0151;message_0152;message_0237
+msg_108,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: business_domain_mismatch, unverified_business_reports. Supporting history: message_0093;message_0094.",0.9,message_0093;message_0094;message_0236
+msg_019,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: business_domain_mismatch, unverified_business_reports. Supporting history: message_0093;message_0094.",0.9,message_0093;message_0094;message_0236
+msg_088,mute,unknown,The recipient has muted this group and the message contains no direct signal to the recipient. Matched signals: group_muted. Supporting history: message_0050;message_0115.,0.85,message_0050;message_0115;message_0116
+msg_056,notify,urgent,"The message was evaluated as a direct mention inside a muted group. Matched signals: group_muted, recipient_mention, genuine_urgency. Supporting history: message_0167;message_0168.",0.8,message_0167;message_0168;message_0359
+msg_027,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: business_domain_mismatch. Supporting history: message_0007;message_0033.",0.9,message_0007;message_0033;message_0272
+msg_050,notify,business_update,The business message was routed using the recipient's stored relationship and engagement signals. Matched signals: business_context. Supporting history: message_0279;message_0155.,0.85,message_0279;message_0155;message_0156
+msg_083,notify,urgent,The direct message has no stronger suppression or safety signal and is routed for attention. Matched signals: urgent. Supporting history: message_0219.,0.85,message_0219
+msg_063,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: payment_pressure, payment_link_request. Supporting history: message_0182;message_0181.",0.9,message_0182;message_0181
+msg_033,digest,urgent,"The sender explicitly says the matter is not urgent, so it can wait for the digest. Matched signals: explicit_non_urgency. Supporting history: message_0121;message_0122.",0.78,message_0121;message_0122;message_0372
+msg_061,mute,spam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: high_forwarded_chain. Supporting history: message_0177;message_0193.",0.9,message_0177;message_0193;message_0178
+msg_020,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: sensitive_verification_request. Supporting history: message_0096;message_0095.",0.9,message_0096;message_0095;message_0114
+msg_017,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: payment_pressure. Supporting history: message_0090;message_0089.",0.9,message_0090;message_0089
+msg_058,mute,spam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: high_forwarded_chain. Supporting history: message_0039;message_0040.",0.9,message_0039;message_0040;message_0078
+msg_026,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: business_domain_mismatch, sensitive_verification_request, unverified_business_reports. Supporting history: message_0032;message_0107.",0.9,message_0032;message_0107;message_0108
+msg_047,notify,urgent,The direct message has no stronger suppression or safety signal and is routed for attention. Matched signals: urgent. Supporting history: message_0150;message_0149.,0.85,message_0150;message_0149;message_0001
+msg_046,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: sensitive_verification_request. Supporting history: message_0147;message_0148.",0.9,message_0147;message_0148;message_0024
+msg_042,digest,personal,The message has no verified urgency or safety signal and is suitable for the digest. Matched signals: non_urgent_default. Supporting history: message_0140;message_0139.,0.78,message_0140;message_0139;message_0058
+msg_079,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: sensitive_verification_request. Supporting history: message_0023;message_0045.",0.9,message_0023;message_0045;message_0053
+msg_098,digest,personal,The message has no verified urgency or safety signal and is suitable for the digest. Matched signals: non_urgent_default. Supporting history: message_0359;message_0054.,0.78,message_0359;message_0054;message_0225
+msg_037,digest,personal,The message has no verified urgency or safety signal and is suitable for the digest. Matched signals: non_urgent_default. Supporting history: message_0001;message_0029.,0.78,message_0001;message_0029;message_0030
+msg_007,digest,personal,The message has no verified urgency or safety signal and is suitable for the digest. Matched signals: non_urgent_default. Supporting history: message_0070;message_0069.,0.78,message_0070;message_0069
+msg_085,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: business_domain_mismatch, unverified_business_reports. Supporting history: message_0221.",0.9,message_0221
+msg_001,digest,personal,The message has no verified urgency or safety signal and is suitable for the digest. Matched signals: non_urgent_default. Supporting history: message_0057;message_0240.,0.78,message_0057;message_0240;message_0058
+msg_021,notify,payment,"The message is a payment-related administrative update and explicitly warns against unsafe payment links. Matched signals: payment_context, explicit_safe_payment. Supporting history: message_0030;message_0067.",0.88,message_0030;message_0067;message_0097
+msg_028,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: business_domain_mismatch, promotions_opted_out. Supporting history: message_0034;message_0111.",0.9,message_0034;message_0111;message_0112
+msg_012,mute,spam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: high_forwarded_chain. Supporting history: message_0079;message_0247.",0.9,message_0079;message_0247;message_0080
+msg_064,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: sensitive_verification_request, payment_pressure. Supporting history: message_0024;message_0087.",0.9,message_0024;message_0087;message_0088
+msg_103,notify,urgent,The direct message has no stronger suppression or safety signal and is routed for attention. Matched signals: urgent. Supporting history: message_0065;message_0049.,0.85,message_0065;message_0049;message_0382
+msg_031,digest,event,The message has no verified urgency or safety signal and is suitable for the digest. Matched signals: non_urgent_default. Supporting history: message_0117;message_0118.,0.78,message_0117;message_0118;message_0249
+msg_057,notify,urgent,The direct message has no stronger suppression or safety signal and is routed for attention. Matched signals: urgent. Supporting history: message_0003;message_0041.,0.85,message_0003;message_0041;message_0059
+msg_087,mute,unknown,The recipient has muted this group and the message contains no direct signal to the recipient. Matched signals: group_muted. Supporting history: message_0203;message_0204.,0.85,message_0203;message_0204;message_0223
+msg_067,notify,payment,"The message is a payment-related administrative update and explicitly warns against unsafe payment links. Matched signals: payment_context, trusted_admin. Supporting history: message_0029;message_0030.",0.88,message_0029;message_0030;message_0044
+msg_039,notify,payment,"The message is a payment-related administrative update and explicitly warns against unsafe payment links. Matched signals: payment_context, trusted_admin. Supporting history: message_0051;message_0002.",0.88,message_0051;message_0002;message_0037
+msg_082,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: sensitive_verification_request. Supporting history: message_0218;message_0397.",0.9,message_0218;message_0397;message_0380
+msg_066,mute,scam,The business message crossed the deterministic soft-risk threshold. Matched signals: soft_risk_score. Supporting history: message_0188;message_0187.,0.87,message_0188;message_0187;message_0034
+msg_049,notify,business_update,The business message was routed using the recipient's stored relationship and engagement signals. Matched signals: business_context. Supporting history: message_0154;message_0291.,0.85,message_0154;message_0291;message_0153
+msg_015,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: sensitive_verification_request. Supporting history: message_0085;message_0199.",0.9,message_0085;message_0199;message_0023
+msg_051,mute,spam,The recipient has opted out of promotions from this business. Matched signals: promotions_opted_out. Supporting history: message_0103;message_0257.,0.87,message_0103;message_0257;message_0157
+msg_097,digest,urgent,"The sender explicitly says the matter is not urgent, so it can wait for the digest. Matched signals: explicit_non_urgency. Supporting history: message_0054;message_0225.",0.78,message_0054;message_0225;message_0359
+msg_089,notify,urgent,The direct message has no stronger suppression or safety signal and is routed for attention. Matched signals: urgent.,0.85,none
+msg_053,digest,personal,The message has no verified urgency or safety signal and is suitable for the digest. Matched signals: non_urgent_default. Supporting history: message_0161;message_0253.,0.78,message_0161;message_0253;message_0411
+msg_059,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: sensitive_verification_request. Supporting history: message_0053;message_0174.",0.9,message_0053;message_0174;message_0196
+msg_024,mute,spam,The recipient has opted out of promotions from this business. Matched signals: promotions_opted_out. Supporting history: message_0103;message_0257.,0.87,message_0103;message_0257;message_0157
+msg_072,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: sensitive_verification_request. Supporting history: message_0085;message_0199.",0.9,message_0085;message_0199;message_0023
+msg_036,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: business_domain_mismatch, sensitive_verification_request, unverified_business_reports. Supporting history: message_0127;message_0283.",0.9,message_0127;message_0283;message_0128
+msg_076,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: business_domain_mismatch, payment_pressure, unverified_business_reports. Supporting history: message_0159;message_0160.",0.9,message_0159;message_0160;message_0207
+msg_055,notify,urgent,The direct message has no stronger suppression or safety signal and is routed for attention. Matched signals: urgent. Supporting history: message_0166;message_0165.,0.85,message_0166;message_0165;message_0387
+msg_102,notify,urgent,The direct message has no stronger suppression or safety signal and is routed for attention. Matched signals: urgent. Supporting history: message_0230;message_0371.,0.85,message_0230;message_0371;message_0059
+msg_080,digest,personal,The message has no verified urgency or safety signal and is suitable for the digest. Matched signals: non_urgent_default. Supporting history: message_0130;message_0142.,0.78,message_0130;message_0142;message_0180
+msg_093,notify,business_update,The business message was routed using the recipient's stored relationship and engagement signals. Matched signals: business_context. Supporting history: message_0347;message_0348.,0.85,message_0347;message_0348;message_0349
+msg_034,mute,spam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: high_forwarded_chain. Supporting history: message_0013;message_0039.",0.9,message_0013;message_0039;message_0040
+msg_035,digest,promotion,The business message was routed using the recipient's stored relationship and engagement signals. Matched signals: business_context. Supporting history: message_0125;message_0281.,0.85,message_0125;message_0281;message_0126
+msg_101,digest,personal,The message is non-urgent and arrived during the recipient's quiet hours. Matched signals: quiet_hours_active. Supporting history: message_0229;message_0268.,0.85,message_0229;message_0268;message_0370
+msg_041,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: business_domain_mismatch. Supporting history: message_0137;message_0138.",0.9,message_0137;message_0138
+msg_011,mute,spam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: high_forwarded_chain. Supporting history: message_0013;message_0014.",0.9,message_0013;message_0014;message_0039
+msg_110,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: embedded_instruction, sensitive_verification_request. Supporting history: message_0238;message_0381.",0.9,message_0238;message_0381
+msg_095,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: embedded_instruction, sensitive_verification_request, payment_pressure. Supporting history: message_0087;message_0183.",0.9,message_0087;message_0183;message_0201
+msg_074,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: payment_pressure. Supporting history: message_0203;message_0204.",0.9,message_0203;message_0204;message_0223
+msg_073,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: sensitive_verification_request. Supporting history: message_0024;message_0087.",0.9,message_0024;message_0087;message_0183
+msg_054,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: payment_pressure. Supporting history: message_0164;message_0163.",0.9,message_0164;message_0163;message_0389
+msg_068,digest,personal,The message has no verified urgency or safety signal and is suitable for the digest. Matched signals: non_urgent_default. Supporting history: message_0191;message_0192.,0.78,message_0191;message_0192
+msg_100,digest,payment,The message has no verified urgency or safety signal and is suitable for the digest. Matched signals: non_urgent_default. Supporting history: message_0362;message_0117.,0.78,message_0362;message_0117;message_0249
+msg_062,notify,urgent,"The attached media contains a safety-relevant missing-person notice, so it is surfaced immediately. Matched signals: missing_person_media. Supporting history: message_0043;message_0001.",0.92,message_0043;message_0001;message_0029
+msg_096,digest,personal,The message has no verified urgency or safety signal and is suitable for the digest. Matched signals: non_urgent_default.,0.78,none
+msg_043,digest,personal,The message has no verified urgency or safety signal and is suitable for the digest. Matched signals: non_urgent_default. Supporting history: message_0001;message_0029.,0.78,message_0001;message_0029;message_0030
+msg_077,digest,unknown,The message is non-urgent and arrived during the recipient's quiet hours. Matched signals: quiet_hours_active. Supporting history: message_0037;message_0051.,0.85,message_0037;message_0051;message_0403
+msg_081,notify,event,The direct message has no stronger suppression or safety signal and is routed for attention. Matched signals: urgent. Supporting history: message_0217.,0.85,message_0217
+msg_025,notify,business_update,The business message was routed using the recipient's stored relationship and engagement signals. Matched signals: business_context. Supporting history: message_0004;message_0105.,0.85,message_0004;message_0105;message_0239
+msg_084,mute,spam,The recipient has opted out of promotions from this business. Matched signals: promotions_opted_out. Supporting history: message_0220.,0.87,message_0220
+msg_022,mute,scam,"A deterministic safety rule identified risky or instruction-like content, so the message is muted. Matched signals: payment_pressure, payment_link_request. Supporting history: message_0099;message_0100.",0.9,message_0099;message_0100;message_0151

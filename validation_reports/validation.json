@@ -1,0 +1,113 @@
+{
+  "regression": {
+    "passed": true,
+    "checks": {
+      "msg_110": true,
+      "msg_040": true,
+      "msg_056": true,
+      "msg_021": true,
+      "msg_022": true,
+      "msg_091": true,
+      "msg_064": true,
+      "msg_074": true,
+      "msg_082": true,
+      "msg_093": true,
+      "msg_062": true
+    },
+    "batch_report": {
+      "target_count": 110,
+      "output_count": 110,
+      "degraded_count": 23,
+      "provider_call_count": 0,
+      "cache_hit_count": 0,
+      "output_path": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\tmpwo0nhthx\\output.csv",
+      "validation_passed": true,
+      "cache_miss_count": 0,
+      "provider_skip_count": 23,
+      "retrieval_usage": 107,
+      "risk_usage": 110,
+      "content_judgment_usage": 2,
+      "provider_call_counts": {
+        "0": 0
+      },
+      "provider_call_log": []
+    }
+  },
+  "output": {
+    "passed": true,
+    "header_ok": true,
+    "target_count": 110,
+    "output_count": 110,
+    "missing_ids": [],
+    "extra_ids": [],
+    "duplicate_ids": [],
+    "enum_invalid": [],
+    "confidence_invalid": [],
+    "empty_reason": [],
+    "evidence_invalid": [],
+    "confidence_min": 0.78,
+    "confidence_max": 0.92,
+    "confidence_extremes": 0,
+    "unique_reason_count": 101,
+    "max_repeated_reason_count": 2,
+    "exact_duplicate_rows": 0,
+    "exact_target_accuracy": null,
+    "sample_accuracy_available": false,
+    "sample_accuracy_note": "sample_messages.csv uses a distinct message namespace and cannot score target output rows directly"
+  },
+  "submission": {
+    "passed": false,
+    "missing_required_files": [],
+    "secret_hits_in_source": [],
+    "env_files_to_exclude": [
+      ".env",
+      "code\\.env"
+    ],
+    "cache_dirs_to_exclude": [
+      "code\\__pycache__",
+      "tests\\app\\__pycache__",
+      "tests\\decision\\__pycache__",
+      "tests\\evaluation\\__pycache__",
+      "tests\\features\\__pycache__",
+      "tests\\knowledge\\__pycache__",
+      "tests\\output\\__pycache__",
+      "tests\\personalization\\__pycache__",
+      "tests\\pipeline\\__pycache__",
+      "tests\\providers\\__pycache__",
+      "tests\\resolver\\__pycache__",
+      "code\\app\\__pycache__",
+      "code\\content_judgment\\__pycache__",
+      "code\\decision\\__pycache__",
+      "code\\evaluation\\__pycache__",
+      "code\\features\\__pycache__",
+      "code\\justification\\__pycache__",
+      "code\\knowledge\\__pycache__",
+      "code\\loader\\__pycache__",
+      "code\\models\\__pycache__",
+      "code\\output\\__pycache__",
+      "code\\perception\\__pycache__",
+      "code\\personalization\\__pycache__",
+      "code\\resolver\\__pycache__",
+      "code\\retrieval\\__pycache__",
+      "code\\risk\\__pycache__",
+      "code\\utils\\__pycache__"
+    ],
+    "output_exists": true,
+    "manual_steps": [
+      "exclude .env files and __pycache__ directories from code.zip",
+      "include the final chat transcript separately",
+      "run one live Gemini startup check in a network-enabled environment"
+    ]
+  },
+  "gemini_usage": {
+    "total_calls": 0,
+    "calls": [],
+    "provider_call_counts": {
+      "0": 0
+    },
+    "cache_hits": 0,
+    "cache_misses": 0,
+    "provider_skips": 23,
+    "necessary_assessment": "Offline fallback run made no Gemini calls; mocked provider tests are not live Gemini usage."
+  }
+}

@@ -1,0 +1,998 @@
+{
+  "messages": [
+    {
+      "message_id": "msg_023",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_091",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "high"
+    },
+    {
+      "message_id": "msg_090",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_048",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_040",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_075",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_005",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "promotion; social",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_104",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_069",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_107",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "high"
+    },
+    {
+      "message_id": "msg_070",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "high"
+    },
+    {
+      "message_id": "msg_003",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_099",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_008",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_092",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_060",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "document; educational; event",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_004",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_030",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "promotion; social",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_045",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_052",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_009",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_071",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_016",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "high"
+    },
+    {
+      "message_id": "msg_065",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "business_update; promotion",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_038",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_086",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "scam; urgent",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "high"
+    },
+    {
+      "message_id": "msg_014",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_094",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_029",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "promotion; social",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_105",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_002",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_010",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_078",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_013",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_018",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_044",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "high"
+    },
+    {
+      "message_id": "msg_032",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_106",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_006",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_109",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_108",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_019",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_088",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_056",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_027",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "event; promotion; travel",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_050",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_083",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "urgent",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_063",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_033",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_061",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_020",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_017",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_058",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_026",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_047",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_046",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "high"
+    },
+    {
+      "message_id": "msg_042",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_079",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "high"
+    },
+    {
+      "message_id": "msg_098",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_037",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_007",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_085",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_001",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_021",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_028",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "event; promotion; travel",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_012",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_064",
+      "known_ambiguity": [
+        "media/text contradiction"
+      ],
+      "media_conflict": true,
+      "expected_reasoning": "business_update; event; promotion",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_103",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_031",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "business_update; calendar; event",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_057",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_087",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_067",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_039",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_082",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "scam; urgent",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "high"
+    },
+    {
+      "message_id": "msg_066",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "business_update; promotion",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_049",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "business_update; promotion; transaction",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_015",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "high"
+    },
+    {
+      "message_id": "msg_051",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_097",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_089",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_053",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "educational; financial",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_059",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "high"
+    },
+    {
+      "message_id": "msg_024",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_072",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "high"
+    },
+    {
+      "message_id": "msg_036",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_076",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_055",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_102",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_080",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_093",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_034",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_035",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_101",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_041",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_011",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_110",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "high"
+    },
+    {
+      "message_id": "msg_095",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "high"
+    },
+    {
+      "message_id": "msg_074",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "financial; promotion; transaction",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_073",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "high"
+    },
+    {
+      "message_id": "msg_054",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_068",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_100",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_062",
+      "known_ambiguity": [
+        "media/text contradiction"
+      ],
+      "media_conflict": true,
+      "expected_reasoning": "document; family; missing_person; urgent",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "high"
+    },
+    {
+      "message_id": "msg_096",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_043",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_077",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "document; educational; event",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_081",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "event; urgent",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_025",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_084",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    },
+    {
+      "message_id": "msg_022",
+      "known_ambiguity": [],
+      "media_conflict": false,
+      "expected_reasoning": "text-only semantic review",
+      "retrieval_notes": "Use recipient-scoped history; prefer same sender/business/topic and interaction outcomes.",
+      "personalization_notes": "Check group mute, sender/business relationship, quiet hours, notification load, and dismissal history.",
+      "regression_importance": "normal"
+    }
+  ]
+}

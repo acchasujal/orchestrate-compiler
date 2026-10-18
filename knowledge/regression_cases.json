@@ -1,0 +1,13 @@
+{
+  "cases": [
+    {"message_id": "msg_110", "invariant": "instruction injection plus credential request remains safety-muted"},
+    {"message_id": "msg_040", "invariant": "muted-group generic forward remains muted"},
+    {"message_id": "msg_056", "invariant": "muted-group genuine direct urgency remains notify"},
+    {"message_id": "msg_021", "invariant": "explicit warning against payment links is not itself a scam request"},
+    {"message_id": "msg_022", "invariant": "payment link plus screenshot request remains scam-muted"},
+    {"message_id": "msg_062", "invariant": "missing-person media cannot be ignored when text conflicts"},
+    {"message_id": "msg_074", "invariant": "land-sale token-payment pressure remains scam-like even in muted group"},
+    {"message_id": "msg_091", "invariant": "login-code request with account-expiry pressure is scam-muted"},
+    {"message_id": "msg_105", "invariant": "forwarded medical replacement advice remains suppressed"}
+  ]
+}

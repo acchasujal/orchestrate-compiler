@@ -1,0 +1,9 @@
+{
+  "confirmed": [
+    {"rule": "reports_are_advisory", "fact": "A high business user-report count is not sufficient to classify a verified transactional update as scam."},
+    {"rule": "opt_out_is_promotion_scoped", "fact": "Promotional opt-out suppresses marketing, but does not suppress order, delivery, appointment, refund, statement, or account-service updates."},
+    {"rule": "domain_mismatch_is_safety_signal", "fact": "Official-domain mismatch remains a hard impersonation signal."}
+  ],
+  "transactional_terms": ["order", "packed", "delivery", "pickup", "appointment", "prescription", "claim", "statement", "refund", "route status", "account or card payment update", "return pickup", "scheduled between"],
+  "promotional_terms": ["off", "discount", "cashback", "offer", "shop the collection", "tour package", "limited shopping benefit", "welcome offer", "review"]
+}
