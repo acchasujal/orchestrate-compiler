@@ -1,0 +1,34 @@
+{
+  "hackerrank": {
+    "test_duration": "HackerRank tests have a default duration. Accommodations can be added in multiples of 5% via Candidates > More > Add Time Accommodation.",
+    "test_retake": "Candidates can retake a test if they are re-invited. Re-inviting a candidate archives the previous attempt. Candidates can be re-invited as many times as needed.",
+    "test_expiration": "Tests remain active indefinitely unless start/end times are set in Settings > General. Expired tests disable new invitations and candidate access.",
+    "account_deletion": "Users must set a password (if using Google login) via 'Forgot Password' before they can delete their account in Settings > Delete Accounts.",
+    "data_privacy": "HackerRank is GDPR compliant. Users can manage privacy settings and data requests via the account settings.",
+    "billing_invoices": "Invoices can be downloaded from Manage Subscription > Order History. If missing, contact support@hackerrank.com.",
+    "payment_methods": "Payment information is processed via Stripe. Users can update card details in Manage Subscription > Update Payment Method.",
+    "support_channels": "Work platform users: support@hackerrank.com. Candidates: candidate-care@hackerrank.com. Community: help center.",
+    "test_variants": "Variants adapt one test to different profiles. A test must have at least two variants. Variants without logic are hidden from candidates."
+  },
+  "claude": {
+    "support_access": "Pro/Max plans and Enterprise owners have messenger support. Free users have help docs and Fin (AI bot). Human support is not directly available for Team/Enterprise non-owners.",
+    "refund_policy": "All payments are non-refundable except where required by law or in Consumer Terms of Service. Disputed payments block refund processing.",
+    "refund_process": "Request via 'Get help' > 'Claude Refund Request'. iOS refunds must go through Apple. Historical Android refunds through Google.",
+    "account_deletion": "Users can delete accounts in account settings. If unable to login, use the Help Center messenger 'I can't login' option.",
+    "usage_limits": "Usage limits (conversation budget) reset over time. Length limits (context window) are fixed at 200K tokens (500K for some Enterprise models).",
+    "context_management": "Claude automatically summarizes long conversations if code execution is enabled to stay within context limits.",
+    "content_filtering": "Claude may block output to prevent replication of copyrighted material. Repeat violations may lead to account suspension.",
+    "safety_reporting": "Users can report/block content. Illegal content or TOS breaches can be reported via specific forms for UK/Australia users.",
+    "government_support": "Claude for Government has a separate support process and documentation."
+  },
+  "visa": {
+    "lost_stolen_card": "Report immediately via local freephone numbers or +1 303 967 1096. Global Customer Assistance Service can block cards within 30 minutes.",
+    "charge_dispute": "Contact the card issuer or bank directly using the number on the card. Visa does not handle individual cardholder account disputes.",
+    "merchant_limits": "Merchants generally cannot set min/max limits, except in USA/territories where a US$10 minimum for credit cards is allowed.",
+    "travelers_cheques_theft": "Contact the issuer (e.g., Citicorp) immediately with serial numbers. Notify local police. Refunds typically arranged within 24 hours.",
+    "identity_theft": "If identity theft involves a Visa card, visit the Lost or Stolen card page to cancel/replace the card.",
+    "fraud_protection": "Visa provides 3-D Secure (formerly Verified by Visa) for additional e-commerce security. Issuers handle the authentication.",
+    "atm_locator": "Users can find over 2 million ATMs worldwide via Visa's ATM locator.",
+    "scam_reporting": "Visa does not request personal info via email/call. Report scams using Visa's name via contact-us form."
+  }
+}

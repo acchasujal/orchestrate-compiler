@@ -1,0 +1,15 @@
+{
+  "vn_004": {"language": "en", "intent": "travel_update", "urgency": "high", "category": "event", "summary": "Airport pickup time moved to 6:15 AM; driver and hotel booking unchanged.", "confidence": 0.95},
+  "vn_005": {"language": "en", "intent": "credential_request", "urgency": "high", "category": "scam", "summary": "Claims a bank account will be blocked and asks for an OTP.", "confidence": 0.98},
+  "vn_006": {"language": "en", "intent": "incident_escalation", "urgency": "high", "category": "urgent", "summary": "Checkout errors are spiking and live-user payments are failing; asks recipient to join the incident bridge.", "confidence": 0.96},
+  "vn_009": {"language": "en", "intent": "credential_request", "urgency": "high", "category": "scam", "summary": "Account-blocking pressure paired with an OTP request.", "confidence": 0.98},
+  "vn_001": {"language": "unknown", "intent": "unknown", "urgency": "unknown", "category": "unknown", "summary": "No verified cached transcript available.", "confidence": 0.0},
+  "vn_002": {"language": "unknown", "intent": "unknown", "urgency": "unknown", "category": "unknown", "summary": "No verified cached transcript available.", "confidence": 0.0},
+  "vn_003": {"language": "unknown", "intent": "unknown", "urgency": "unknown", "category": "unknown", "summary": "No verified cached transcript available.", "confidence": 0.0},
+  "vn_007": {"language": "unknown", "intent": "unknown", "urgency": "unknown", "category": "unknown", "summary": "No verified cached transcript available.", "confidence": 0.0},
+  "vn_008": {"language": "unknown", "intent": "unknown", "urgency": "unknown", "category": "unknown", "summary": "No verified cached transcript available.", "confidence": 0.0},
+  "vn_012": {"language": "unknown", "intent": "unknown", "urgency": "unknown", "category": "unknown", "summary": "No verified cached transcript available.", "confidence": 0.0},
+  "vn_013": {"language": "unknown", "intent": "unknown", "urgency": "unknown", "category": "unknown", "summary": "No verified cached transcript available.", "confidence": 0.0},
+  "vn_014": {"language": "unknown", "intent": "unknown", "urgency": "unknown", "category": "unknown", "summary": "No verified cached transcript available.", "confidence": 0.0},
+  "vn_015": {"language": "unknown", "intent": "unknown", "urgency": "unknown", "category": "unknown", "summary": "No verified cached transcript available.", "confidence": 0.0}
+}
